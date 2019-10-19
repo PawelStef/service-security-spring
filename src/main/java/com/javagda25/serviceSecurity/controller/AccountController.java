@@ -1,11 +1,10 @@
-package com.javagda25.securitytemplate.controller;
+package com.javagda25.serviceSecurity.controller;
 
-import com.javagda25.securitytemplate.model.Account;
-import com.javagda25.securitytemplate.service.AccountService;
+import com.javagda25.serviceSecurity.model.Account;
+import com.javagda25.serviceSecurity.service.AccountService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
-import org.springframework.ui.ModelMap;
 import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;

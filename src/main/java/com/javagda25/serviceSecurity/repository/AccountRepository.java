@@ -1,6 +1,6 @@
-package com.javagda25.securitytemplate.repository;
+package com.javagda25.serviceSecurity.repository;
 
-import com.javagda25.securitytemplate.model.Account;
+import com.javagda25.serviceSecurity.model.Account;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.Optional;

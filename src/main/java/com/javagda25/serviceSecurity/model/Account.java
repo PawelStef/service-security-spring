@@ -1,17 +1,13 @@
-package com.javagda25.securitytemplate.model;
+package com.javagda25.serviceSecurity.model;
 
-import com.sun.xml.bind.v2.model.core.ID;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 import org.hibernate.annotations.Cascade;
-import org.springframework.security.core.GrantedAuthority;
-import org.springframework.security.core.userdetails.UserDetails;
 
 import javax.persistence.*;
 import javax.validation.constraints.NotEmpty;
 import javax.validation.constraints.Size;
-import java.util.Collection;
 import java.util.Set;
 
 @Data

@@ -1,4 +1,4 @@
-package com.javagda25.securitytemplate.model;
+package com.javagda25.serviceSecurity.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

@@ -1,16 +1,15 @@
-package com.javagda25.securitytemplate.component;
+package com.javagda25.serviceSecurity.component;
 
-import com.javagda25.securitytemplate.model.Account;
-import com.javagda25.securitytemplate.model.AccountRole;
-import com.javagda25.securitytemplate.repository.AccountRepository;
-import com.javagda25.securitytemplate.repository.AccountRoleRepository;
+import com.javagda25.serviceSecurity.model.Account;
+import com.javagda25.serviceSecurity.model.AccountRole;
+import com.javagda25.serviceSecurity.repository.AccountRepository;
+import com.javagda25.serviceSecurity.repository.AccountRoleRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.ApplicationListener;
 import org.springframework.context.event.ContextRefreshedEvent;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Component;
 
-import java.util.Arrays;
 import java.util.HashSet;
 import java.util.Set;
 

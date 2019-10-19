@@ -1,4 +1,4 @@
-package com.javagda25.securitytemplate.configuration;
+package com.javagda25.serviceSecurity.configuration;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

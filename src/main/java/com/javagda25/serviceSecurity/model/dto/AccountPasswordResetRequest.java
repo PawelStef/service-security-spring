@@ -1,4 +1,4 @@
-package com.javagda25.securitytemplate.model.dto;
+package com.javagda25.serviceSecurity.model.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

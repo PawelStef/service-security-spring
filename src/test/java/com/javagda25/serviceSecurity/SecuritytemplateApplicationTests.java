@@ -1,4 +1,4 @@
-package com.javagda25.securitytemplate;
+package com.javagda25.serviceSecurity;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

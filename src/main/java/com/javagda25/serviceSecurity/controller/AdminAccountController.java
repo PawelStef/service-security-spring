@@ -1,9 +1,9 @@
-package com.javagda25.securitytemplate.controller;
+package com.javagda25.serviceSecurity.controller;
 
-import com.javagda25.securitytemplate.model.Account;
-import com.javagda25.securitytemplate.model.dto.AccountPasswordResetRequest;
-import com.javagda25.securitytemplate.service.AccountRoleService;
-import com.javagda25.securitytemplate.service.AccountService;
+import com.javagda25.serviceSecurity.model.Account;
+import com.javagda25.serviceSecurity.model.dto.AccountPasswordResetRequest;
+import com.javagda25.serviceSecurity.service.AccountRoleService;
+import com.javagda25.serviceSecurity.service.AccountService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.stereotype.Controller;

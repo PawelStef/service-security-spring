@@ -1,7 +1,7 @@
-package com.javagda25.securitytemplate.service;
+package com.javagda25.serviceSecurity.service;
 
-import com.javagda25.securitytemplate.model.AccountRole;
-import com.javagda25.securitytemplate.repository.AccountRoleRepository;
+import com.javagda25.serviceSecurity.model.AccountRole;
+import com.javagda25.serviceSecurity.repository.AccountRoleRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
